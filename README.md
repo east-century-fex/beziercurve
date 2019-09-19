@@ -1,9 +1,9 @@
 <h1 align="center">Bezier Curve Extension</h1>
 
 <p align="center">
-    <a href="https://travis-ci.com/jiaming743/bezierCurve"><img src="https://img.shields.io/travis/com/jiaming743/bezierCurve.svg" alt="Travis CI"></a>
-    <a href="https://github.com/jiaming743/BezierCurve/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jiaming743/bezierCurve.svg" alt="LICENSE" /> </a>
-    <a href="https://www.npmjs.com/package/@jiaminghi/bezier-curve"><img src="https://img.shields.io/npm/v/@jiaminghi/bezier-curve.svg" alt="LICENSE" /> </a>
+    <a href="https://travis-ci.com/east-century-fex/bezierCurve"><img src="https://img.shields.io/travis/com/east-century-fex/bezierCurve.svg" alt="Travis CI"></a>
+    <a href="https://github.com/east-century-fex/beziercurve/blob/master/LICENSE"><img src="https://img.shields.io/github/license/east-century-fex/bezierCurve.svg" alt="LICENSE" /> </a>
+    <a href="https://www.npmjs.com/package/@east-century/bezier-curve"><img src="https://img.shields.io/npm/v/@east-century/bezier-curve.svg" alt="LICENSE" /> </a>
 </p>
 
 ### 这是一个提供如下几个方法的三次贝塞尔曲线插件。
@@ -23,13 +23,13 @@
 ### npm安装
 
 ```shell
-$ npm install @jiaminghi/bezier-curve
+$ npm install @east-century/bezier-curve
 ```
 
 ### 使用
 
 ```javascript
-import bezierCurve from '@jiaminghi/bezier-curve'
+import bezierCurve from '@east-century/bezier-curve'
 
 // do something
 ```
@@ -37,11 +37,11 @@ import bezierCurve from '@jiaminghi/bezier-curve'
 ### 快速体验
 
 ```html
-<!--资源位于个人服务器仅供体验和测试，请勿在生产环境使用-->
+<!--资源位于github服务器仅供体验和测试，请勿在生产环境使用-->
 <!--调试版-->
-<script src="http://lib.jiaminghi.com/bezierCurve/bezierCurve.map.js"></script>
+<script src="https://github.com/east-century-fex/beziercurve/blob/master/dist/bezierCurve.map.js"></script>
 <!--压缩版-->
-<script src="http://lib.jiaminghi.com/bezierCurve/bezierCurve.min.js"></script>
+<script src="https://github.com/east-century-fex/beziercurve/blob/master/dist/bezierCurve.min.js"></script>
 <script>
     const { bezierCurveToPolyline, getBezierCurveLength, polylineToBezierCurve } = window.bezierCurve
     // do something
